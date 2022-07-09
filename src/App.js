@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Barchart from './componets/Barchart';
+import Feeds from './componets/Feeds';
+import Linechart from './componets/Linechart';
+import Piechart from './componets/Piechart';
+import Rbarchart from './componets/Rbarchart';
+import Rlinechart from './componets/Rlinchart';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    {/* <div className='App'>
+      <div className='bar'>
+        <Barchart />
+      </div>
+      <div className='line'>
+      <Linechart/>
+        </div>
+        <div className='pie'>
+          <Piechart /> */}
+        {/* </div> */}
+    {/* </div> */}
+    {/* <Rbarchart/>
+    <Rlinechart/> */}
+    {/* <Linechart/> */}
+    <Feeds />
     </div>
   );
 }
